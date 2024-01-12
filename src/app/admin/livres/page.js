@@ -1,4 +1,5 @@
-import ListLivres from '@/components/admin/listLivres';
+import ListLivres from "../../../components/admin/ListLivres";
+
 const getBooks=async()=>{
 const response = await fetch(process.env.URL +"/api/livres", { cache: 'no-store' });
 console.log(response);
