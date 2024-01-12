@@ -5,7 +5,7 @@ const nextConfig = {
         domains:["res.cloudinary.com","res-console.cloudinary.com"]
         },
     env:{
-        URL : "react-redux-zphf.vercel.app"
+        URL : "https://gestbiblio-nextjs-prisma.vercel.app/"
         } 
 
 }
