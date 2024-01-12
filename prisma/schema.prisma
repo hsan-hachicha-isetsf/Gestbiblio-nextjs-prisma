@@ -50,7 +50,7 @@ model livres{
   editeurs      editeurs       @relation(fields: [editeur_id], references: [id])
   specialites   specialites    @relation(fields: [specialite_id], references: [id])
   livre_auteur livre_auteur[]
-  createdAt   DateTime @default(now()) @db.Timestamp(0)
+createdAt   DateTime @default(now()) @db.Timestamp(0)
 updatedAt DateTime @updatedAt @default(now()) @db.Timestamp(0)
  
 }
